@@ -4,6 +4,10 @@
 
 US federal holiday dates with their **observed** dates, plus a day-by-day **business-day calendar**, as CSV and iCalendar (.ics). Generated from 5 U.S.C. 6103 with the standard observance rule: a Saturday holiday is observed the Friday before, a Sunday holiday the Monday after (so New Year's Day 2022 was observed on Friday 2021-12-31).
 
+## Reference pages
+
+Year-by-year tables built from this data: [US federal holidays](https://plainfoldhq.github.io/us-federal-holidays/), [NYSE holidays and early closes](https://plainfoldhq.github.io/nyse-holidays/), [Federal Reserve holidays](https://plainfoldhq.github.io/federal-reserve-holidays/), [business days per month](https://plainfoldhq.github.io/business-days/).
+
 ## Guides
 
 - [US federal holiday rules, observance and 2026-2027 dates](docs/us-federal-holiday-rules.md)
@@ -21,7 +25,7 @@ add_business_days("2026-11-25", 3)               # date(2026, 12, 1)
 business_days_between("2026-11-01", "2026-12-01")  # 19
 ```
 
-CLI: `usbizdays --calendar nyse holidays 2027`, `usbizdays add 2026-11-25 3`. Install with `pip install usbizdays` (once published) or run from a clone with `PYTHONPATH=src python3 -m usbizdays ...`.
+CLI: `usbizdays --calendar nyse holidays 2027`, `usbizdays add 2026-11-25 3`. Install with `pip install usbizdays` or run from a clone with `PYTHONPATH=src python3 -m usbizdays ...`.
 
 Useful for: payroll and settlement date math, SLA and due-date calculations, "next business day" logic, data warehouses that need a date dimension, and calendar imports.
 
