@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "usbizdays"
-version = "1.0.0"
+version = "1.0.1"
 description = "US federal, NYSE and Federal Reserve business days and holidays. No dependencies, no data files."
 readme = "README.md"
 license = "MIT"
@@ -20,6 +20,9 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/plainfoldhq/us-federal-calendar"
+Documentation = "https://plainfoldhq.github.io/business-days/"
+Source = "https://github.com/plainfoldhq/us-federal-calendar"
+Issues = "https://github.com/plainfoldhq/us-federal-calendar/issues"
 
 [project.scripts]
 usbizdays = "usbizdays:cli"

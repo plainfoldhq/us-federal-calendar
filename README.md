@@ -10,8 +10,8 @@ Year-by-year tables built from this data: [US federal holidays](https://plainfol
 
 ## Guides
 
-- [US federal holiday rules, observance and 2026-2027 dates](docs/us-federal-holiday-rules.md)
-- [Count business days in Python (federal and NYSE calendars)](docs/count-business-days-python.md)
+- [US federal holiday rules, observance and 2026-2027 dates](https://github.com/plainfoldhq/us-federal-calendar/blob/main/docs/us-federal-holiday-rules.md)
+- [Count business days in Python (federal and NYSE calendars)](https://github.com/plainfoldhq/us-federal-calendar/blob/main/docs/count-business-days-python.md)
 
 ## Python package (free)
 
