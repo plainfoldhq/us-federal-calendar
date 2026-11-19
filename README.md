@@ -6,7 +6,7 @@ US federal holiday dates with their **observed** dates, plus a day-by-day **busi
 
 ## Reference pages
 
-Year-by-year tables built from this data: [US federal holidays](https://plainfoldhq.github.io/us-federal-holidays/), [NYSE holidays and early closes](https://plainfoldhq.github.io/nyse-holidays/), [Federal Reserve holidays](https://plainfoldhq.github.io/federal-reserve-holidays/), [business days per month](https://plainfoldhq.github.io/business-days/).
+Year-by-year tables built from this data: [US federal holidays](https://plainfoldhq.github.io/us-federal-holidays/), [NYSE holidays and early closes](https://plainfoldhq.github.io/nyse-holidays/), [Federal Reserve holidays](https://plainfoldhq.github.io/federal-reserve-holidays/), [business days per month](https://plainfoldhq.github.io/business-days/), and [which holidays close the stock market vs federal offices vs the Fed](https://plainfoldhq.github.io/is-the-stock-market-open-on-holidays/).
 
 ## Guides
 
