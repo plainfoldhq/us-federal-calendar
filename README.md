@@ -66,6 +66,8 @@ Tests compare against known observed dates. Every observed federal holiday for 1
 - Not included: Inauguration Day (Washington, DC area only), state and local holidays, Nasdaq/CME/bond-market schedules, and one-off federal closures by executive order.
 - Future years follow current law; Congress can change it. Verify against official sources before legal, payroll or settlement use.
 
+Keep a company holiday list in a repo? The free [holiday-drift-check](https://github.com/plainfoldhq/holiday-drift-check) GitHub Action checks a YAML/JSON/CSV holiday file against US federal holidays (2026-2028) or NYSE closures (2026-2027) and flags missing holidays, weekend dates that should be the observed weekday, and a next year not filled in yet.
+
 ## Related
 - [plainfoldhq/date-dimension](https://github.com/plainfoldhq/date-dimension): date dimension table and 4-5-4 / 4-4-5 / 5-4-4 retail calendars (Python package `retailcal`); [full pack on Polar](https://buy.polar.sh/polar_cl_dQIvyRLcbGYoTfZgVmsIENITeo4Zu2zok8JI94KfqWn?utm_source=readme&utm_medium=readme&utm_campaign=C&utm_content=us-federal-calendar).
 - [plainfoldhq/tz-transitions](https://github.com/plainfoldhq/tz-transitions): IANA time zone transitions 1970-2050 and DST test vectors.
