@@ -77,6 +77,7 @@ Keep a company holiday list in a repo? The free [holiday-drift-check](https://gi
 - [plainfoldhq/world-public-holidays](https://github.com/plainfoldhq/world-public-holidays): free CSV of public holidays for 26 countries and regions, 2026-2028, cross-checked against two independent implementations.
 - [plainfoldhq/fx-settlement-holidays](https://github.com/plainfoldhq/fx-settlement-holidays): FX settlement holidays (USD, EUR/TARGET2, GBP, JPY, AUD, NZD) and T+2 spot value dates, 2026-2028, checked against QuantLib.
 - [plainfoldhq/options-expiration-dates](https://github.com/plainfoldhq/options-expiration-dates): free CSV of options expiration dates 2000-2050 (monthly opex with NYSE holidays applied, quad witching, VIX settlement, IMM dates).
+- [plainfoldhq/pandas-holiday-calendars](https://github.com/plainfoldhq/pandas-holiday-calendars): free pandas holiday calendars (NYSE, Federal Reserve, US federal 2000-2050; England and Wales, Euro T2 2026-2028) for `CustomBusinessDay`, `bdate_range` and `numpy.busday_count`; `pip install pandas-holiday-calendars`.
 - All Plainfold data packs in one yearly plan: [All-Access](https://buy.polar.sh/polar_cl_xydfuofU72fdp6xSOHFtihAuniUFagYOwR9zf2M03Gl?utm_source=readme&utm_medium=readme&utm_campaign=ALLACCESS&utm_content=us-federal-calendar).
 
 ## License
