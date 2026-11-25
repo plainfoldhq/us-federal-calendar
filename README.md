@@ -66,6 +66,8 @@ Tests compare against known observed dates. Every observed federal holiday for 1
 - Not included: Inauguration Day (Washington, DC area only), state and local holidays, Nasdaq/CME/bond-market schedules, and one-off federal closures by executive order.
 - Future years follow current law; Congress can change it. Verify against official sources before legal, payroll or settlement use.
 
+Spreadsheet or quick answer instead of code: [holiday lists for Excel NETWORKDAYS/WORKDAY](https://plainfoldhq.github.io/excel-holiday-lists/) (xlsx/CSV) and a [business day calculator](https://plainfoldhq.github.io/business-day-calculator/) (US federal, Fed, NYSE, UK, euro T2; 2026-2028).
+
 Keep a company holiday list in a repo? The free [holiday-drift-check](https://github.com/plainfoldhq/holiday-drift-check) GitHub Action checks a YAML/JSON/CSV holiday file against US federal holidays (2026-2028) or NYSE closures (2026-2027) and flags missing holidays, weekend dates that should be the observed weekday, and a next year not filled in yet.
 
 ## Related
