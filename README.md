@@ -42,7 +42,7 @@ Useful for: payroll and settlement date math, SLA and due-date calculations, "ne
 
 ## Full set ($15, one-time)
 
-[Buy the full set on Polar](https://buy.polar.sh/polar_cl_oW9ytw22HhxLxOnke3W8ibcgTXepc2hYuAEyl1gTqqB) (Polar is the merchant of record and handles sales tax). It contains:
+[Buy the full set on Polar](https://buy.polar.sh/polar_cl_oW9ytw22HhxLxOnke3W8ibcgTXepc2hYuAEyl1gTqqB?utm_source=readme&utm_medium=readme&utm_campaign=B&utm_content=us-federal-calendar) (Polar is the merchant of record and handles sales tax). It contains:
 
 - Federal holidays 1971-2050 (815 rows, CSV + JSON) and business days 2000-2050 (18,628 rows)
 - NYSE trading calendar 2000-2050: every day with open/closed, reason, early closes, previous/next trading day; 490 closures (including Sept 11 2001, Hurricane Sandy, national days of mourning) and 110 early closes
@@ -53,7 +53,7 @@ Useful for: payroll and settlement date math, SLA and due-date calculations, "ne
 - `bizdays.py` (Python 3 standard library): `is_business_day`, `add_business_days`, `business_days_between`, holidays for any year from 1971, plus a CLI
 - The generator scripts and tests
 
-Also sold as part of the [calendar data bundle](https://buy.polar.sh/polar_cl_HiUeTqJE1gUqHdb3OlOWb6Jml7pdq8E71O2pA4Y9iQ3): this pack plus the other two Plainfold calendar data packs (business days, date dimension, time zone transitions) for $35 instead of $49.
+Also sold as part of the [calendar data bundle](https://buy.polar.sh/polar_cl_HiUeTqJE1gUqHdb3OlOWb6Jml7pdq8E71O2pA4Y9iQ3?utm_source=readme&utm_medium=readme&utm_campaign=BUNDLE&utm_content=us-federal-calendar): this pack plus the other two Plainfold calendar data packs (business days, date dimension, time zone transitions) for $35 instead of $49.
 
 ## How it was checked
 
@@ -67,13 +67,13 @@ Tests compare against known observed dates. Every observed federal holiday for 1
 - Future years follow current law; Congress can change it. Verify against official sources before legal, payroll or settlement use.
 
 ## Related
-- [plainfoldhq/date-dimension](https://github.com/plainfoldhq/date-dimension): date dimension table and 4-5-4 / 4-4-5 / 5-4-4 retail calendars (Python package `retailcal`); [full pack on Polar](https://buy.polar.sh/polar_cl_dQIvyRLcbGYoTfZgVmsIENITeo4Zu2zok8JI94KfqWn).
+- [plainfoldhq/date-dimension](https://github.com/plainfoldhq/date-dimension): date dimension table and 4-5-4 / 4-4-5 / 5-4-4 retail calendars (Python package `retailcal`); [full pack on Polar](https://buy.polar.sh/polar_cl_dQIvyRLcbGYoTfZgVmsIENITeo4Zu2zok8JI94KfqWn?utm_source=readme&utm_medium=readme&utm_campaign=C&utm_content=us-federal-calendar).
 - [plainfoldhq/tz-transitions](https://github.com/plainfoldhq/tz-transitions): IANA time zone transitions 1970-2050 and DST test vectors.
 - [plainfoldhq/stock-exchange-holidays](https://github.com/plainfoldhq/stock-exchange-holidays): free CSV of holidays, early closes and trading hours for nine stock exchanges (NYSE, LSE, TSX, Xetra, Euronext, Tokyo, HKEX, ASX, SIX), 2026-2028.
 - [plainfoldhq/world-public-holidays](https://github.com/plainfoldhq/world-public-holidays): free CSV of public holidays for 26 countries and regions, 2026-2028, cross-checked against two independent implementations.
 - [plainfoldhq/fx-settlement-holidays](https://github.com/plainfoldhq/fx-settlement-holidays): FX settlement holidays (USD, EUR/TARGET2, GBP, JPY, AUD, NZD) and T+2 spot value dates, 2026-2028, checked against QuantLib.
 - [plainfoldhq/options-expiration-dates](https://github.com/plainfoldhq/options-expiration-dates): free CSV of options expiration dates 2000-2050 (monthly opex with NYSE holidays applied, quad witching, VIX settlement, IMM dates).
-- All Plainfold data packs in one yearly plan: [All-Access](https://buy.polar.sh/polar_cl_xydfuofU72fdp6xSOHFtihAuniUFagYOwR9zf2M03Gl).
+- All Plainfold data packs in one yearly plan: [All-Access](https://buy.polar.sh/polar_cl_xydfuofU72fdp6xSOHFtihAuniUFagYOwR9zf2M03Gl?utm_source=readme&utm_medium=readme&utm_campaign=ALLACCESS&utm_content=us-federal-calendar).
 
 ## License
 
