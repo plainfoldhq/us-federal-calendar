@@ -152,7 +152,15 @@ The last line shows NumPy without a holiday list: 21, because it does not know a
 
 ## Paid full set
 
-A paid full set exists, with holiday and business-day tables for 2000-2050 and more. See [../README.md](../README.md) for what it contains.
+The [US federal, NYSE and Fed calendar full set](https://buy.polar.sh/polar_cl_oW9ytw22HhxLxOnke3W8ibcgTXepc2hYuAEyl1gTqqB?utm_source=github&utm_medium=readme&utm_campaign=B&utm_content=us-federal-calendar) ($15, one-time; Polar is the merchant of record and handles sales tax) is the same data as ready-to-load tables, if you would rather not depend on a library:
+
+- Federal holidays 1971-2050 and business days 2000-2050 (CSV + JSON)
+- NYSE trading calendar 2000-2050 with early closes and previous/next trading day
+- Federal Reserve Bank holidays 2000-2050
+- SQLite database, a tested PostgreSQL load script and 80 .ics files
+- `bizdays.py` (standard library only) with `is_business_day`, `add_business_days`, `business_days_between`
+
+It is also in the [calendar data bundle](https://buy.polar.sh/polar_cl_HiUeTqJE1gUqHdb3OlOWb6Jml7pdq8E71O2pA4Y9iQ3?utm_source=github&utm_medium=readme&utm_campaign=BUNDLE&utm_content=us-federal-calendar) (US business-day calendar, date dimension and time zone packs) for $35 instead of $49. Full contents: [README](../README.md#full-set-15-one-time).
 
 ---
 
